@@ -1,8 +1,8 @@
 import { Meteor } from 'meteor/meteor';
 
-export default Recipes = new Mongo.Collection('recipes');
+export const Recipes = new Mongo.Collection('recipes');
 
-Recipes.allow({ 
+Recipes.allow({
     insert: function(userId, doc) { 
         return !!userId; 
     }, 
