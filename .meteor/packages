@@ -32,5 +32,7 @@ aldeed:autoform
 accounts-ui
 accounts-password
 matb33:bootstrap-glyphicons
-msavin:jetsetter
+gwendall:auth-client-callbacks
 zimme:active-route
+check
+ejson
